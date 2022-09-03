@@ -14,5 +14,11 @@ public interface ProductService {
 	public Product update(Product student);
 
 	public List<Product> findAll();
-	
+
+	public String getUserDataeData();
+
+	public String getPostsData();
+
+	public String getTodosData();
+
 }

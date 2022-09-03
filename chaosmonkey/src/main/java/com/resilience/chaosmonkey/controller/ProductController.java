@@ -12,8 +12,11 @@ import org.springframework.web.bind.annotation.RestController;
 import com.resilience.chaosmonkey.entity.Product;
 import com.resilience.chaosmonkey.service.ProductService;
 
+import lombok.extern.slf4j.Slf4j;
+
 @RestController
 @RequestMapping("/product")
+@Slf4j
 public class ProductController {
 
 	@Autowired
